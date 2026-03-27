@@ -1,5 +1,3 @@
-#update:16-02-2026
-
 FROM php:7.4-fpm
 RUN apt-get update && apt-get install -y \
         libfreetype6-dev \
